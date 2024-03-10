@@ -22,4 +22,5 @@ exports.checkIfConnected = () => {
     return false;
 }
 
-exports.API_URL = "https://api-express-sand.vercel.app"
+exports.API_URL = "https://api-express-iota-flax.vercel.app"
+//exports.API_URL = "http://localhost:3001"

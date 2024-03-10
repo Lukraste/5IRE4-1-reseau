@@ -19,7 +19,7 @@ class Blog extends React.Component {
       messages: [],
       token: "",
       isLoading: true,
-      url: "https://api-express-sand.vercel.app"
+      url: tools.API_URL
     };
     this.handleChange = this.handleChange.bind(this)
     this.handleSend = this.handleSend.bind(this)
