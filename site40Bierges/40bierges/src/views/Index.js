@@ -20,7 +20,7 @@ class Index extends React.Component {
       secret: "",
       isAdmin: false,
       isLoading: true,
-      url: tools.API_URL
+      url: "https://api-express-sand.vercel.app"
     };
     this.toggleSecret = this.toggleSecret.bind(this)
   };
