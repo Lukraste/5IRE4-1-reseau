@@ -21,3 +21,5 @@ exports.checkIfConnected = () => {
     }
     return false;
 }
+
+exports.API_URL = "https://api-express-sand.vercel.app"

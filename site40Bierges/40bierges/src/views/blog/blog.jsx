@@ -19,7 +19,7 @@ class Blog extends React.Component {
       messages: [],
       token: "",
       isLoading: true,
-      url: "http://localhost:3001"
+      url: tools.API_URL
     };
     this.handleChange = this.handleChange.bind(this)
     this.handleSend = this.handleSend.bind(this)
